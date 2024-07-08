@@ -1,0 +1,395 @@
+
+1/ React
+npx create-react-app@latest admin
+
+2/ laravel
+composer create-project laravel/laravel:10.x api
+
+3/ React
+delete this src\App.css
+
+4/ React
+Create this folders and thers content
+components and assets 
+
+5/ React
+https://getbootstrap.com/
+npm i bootstrap@5.3.0-alpha1
+
+6/ React
+npm i jquery
+
+7/ React
+npm i node-sass
+
+8/ React
+https://www.npmjs.com/package/react-router-dom
+npm i react-router-dom
+
+9/ React
+npm i react-helmet
+
+10/ laravel
+composer require laravel/sanctum
+php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+php artisan migrate
+
+11/ laravel
+php artisan make:seeder AdminSeeder
+php artisan db:seed AdminSeeder
+
+12/ laravel
+php artisan make:controller AuthController
+
+php artisan make:request AuthRequest
+
+13/ React
+npm i axios
+
+14/ React
+npm install sweetalert2
+
+15/ Laravel
+php artisan make:model Category -a
+
+16/ Laravel
+composer require intervention/image:^2.7
+
+17 Laravel, dans le dossier public
+PS E:\Coding\Local\web\reactjs\formation\gestion_vente\api\public>
+chmod -Rf 777 .
+
+18/ Laravel
+php artisan make:resource CategoryListResource
+
+19/ React
+npm install react-bootstrap bootstrap
+
+20/ React
+https://www.npmjs.com/package/react-js-pagination
+npm i react-js-pagination
+
+Lien icon
+https://loading.io/spinner/infinity/-infinity-dash-line-curve-rotate-cycle
+
+21/ Laravel
+php artisan make:resource CategoryEditResource
+
+22/ Laravel
+php artisan make:model SubCategory -a
+
+23/Laravel, dans le dossier public/images
+PS E:\Coding\Local\web\reactjs\formation\gestion_vente\api\public\images>
+chmod -Rf 777 .
+
+
+24/
+php artisan migrate
+
+25/
+php artisan make:resource SubCategoryListResource
+
+26/
+php artisan make:resource SubCategoryEditResource
+
+
+27/
+php artisan make:model Brand -a
+
+28/Laravel, dans le dossier public/images/uploads
+PS E:\Coding\Local\web\reactjs\formation\gestion_vente\api\public\images\uploads>
+chmod -Rf 777 .
+
+28/
+php artisan make:resource BrandListResource
+
+29/
+php artisan make:resource BrandEditResource
+
+30/
+php artisan make:model Division -a
+php artisan make:model District -a
+php artisan make:model Area -a
+
+31/ react
+npm i --save react-select
+
+32/
+php artisan make:model Supplier -a
+php artisan make:model Adress -a
+
+33/
+Laravel, dans le dossier public/images/uploads
+PS E:\Coding\Local\web\reactjs\formation\gestion_vente\api\public\images\uploads>
+chmod -Rf 777 .
+
+34/
+php artisan make:resource SupplierListResource
+php artisan make:resource AddressListResource
+
+25/
+config/logging.php
+    'channels' => [
+        'stack' => [
+            'driver' => 'stack',
+	    'channels' => ['single'],
+
+ changer ceci 'channels' => ['single'], en 'channels' => ['daily'],
+
+
+26/
+php artisan make:resource SupplierEditResource
+
+27/
+php artisan make:model Attribute -a
+php artisan make:resource AttributeListResource
+
+
+28/
+php artisan make:model AttributeValue -a
+php artisan make:resource ValueListResource
+
+29/
+php artisan make:model Country -a
+
+30/
+php artisan make:model Product -a
+php artisan make:model ProductAttribute -a
+php artisan make:model ProductSpecification -a
+
+31/
+php artisan make:model ProductPhoto -a
+
+32/ dans laravel
+PS E:\Coding\Local\web\reactjs\formation\gestion_vente\api\public\images\uploads>
+chmod -Rf 777 .
+
+33/
+php artisan make:resource ProductListResource
+php artisan make:resource ProductAttributeListResource
+
+37/
+php artisan make:model Shop -a
+php artisan make:resource ShopListResource
+php artisan make:resource ShopEditResource
+
+38/
+php artisan make:model SalesManager -a
+
+39/
+PS E:\Coding\Local\web\reactjs\formation\gestion_vente\api\public\images\uploads>
+chmod -Rf 777 .
+
+40/
+Configuration multi-Auth dans laravel
+voir les fichiers
+config\auth.php 
+app\Models\SalesManager.php
+
+41/
+php artisan make:model Customer -a
+
+42/
+https://www.npmjs.com/package/react-moment#formatting
+lien utile : https://momentjs.com/ 
+npm install --save moment react-moment
+
+43/
+php artisan make:model Order -a
+
+44/
+php artisan make:model PaymentMethod -a
+
+45/
+npm i react-barcode
+
+npm i react-to-print
+
+46/
+php artisan make:controller ReportController
+
+47/
+npm i use-scan-detection-react18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
